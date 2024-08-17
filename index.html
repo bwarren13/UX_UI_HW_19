@@ -19,7 +19,6 @@
                     <li>Contact</li>
                 </ul>
             </nav>
-            
         </header>
         <section class="heroImg">
             <div class="heroGrid">
@@ -30,9 +29,18 @@
                 <p class="heroP">
                     Brooke’s favorite part of design is working to get from wireframes to the final high fidelity prototype. She believe in doing user research and testing to make the best possible final product for clients. 
                 </p>
-                <button class="heroButton">
+                <button id="heroBtn" class="heroButton">
                     Download Resume
                 </button>
+                <div id="myModal" class="modal">
+                    <div class="modalContent">
+                        <span class="close">&times;</span>
+                        <h4>Download:</h4>
+                        <button class="resume">Résumé</button>
+                        <button class="workSamples">Work Samples</button>
+                        <button class="caseStudy">Case Study</button>
+                    </div>
+                </div>
             </div>
             
         </section>
@@ -105,4 +113,5 @@
             </ul>
         </footer>
     </body>
+    <script src="js/index.js"></script>
 </html>
