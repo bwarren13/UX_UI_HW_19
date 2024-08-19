@@ -304,6 +304,7 @@ button{
     'GrinImg' 
     'GrinText';
     padding-left: 0;
+    margin: 0 auto;
    }
 
    .workGrid img{
@@ -311,19 +312,20 @@ button{
    }
    .heroGrid{
     display: grid;
-    grid-template-rows: 400px 120px 100px 100px;
+    grid-template-rows: 400px 200px 160px 100px;
     grid-template-columns: 1fr;
     grid-template-areas: 
     'hero' 
     'heroHeader'
     'heroP'
     'heroButton';
-    height: auto;
-    width: auto;
+    margin: 0 auto;
    }
 
    .heroImg{
     height: auto;
+    width: auto;
+    margin: 0 auto;
    }
 
    footer{
@@ -336,5 +338,20 @@ button{
 
    .modalContent{
     width: 200px;
+   }
+
+   .heroHeader, .heroP{
+    width: auto;
+   }
+
+   .heroButton{
+    margin: 0 auto;
+   }
+
+   ul.topnav{
+    width: auto;
+   }
+   .inline-block{
+    width: auto;
    }
 }
