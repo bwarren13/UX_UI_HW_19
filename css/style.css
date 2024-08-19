@@ -21,9 +21,10 @@ nav.inline-block{
     margin-left: auto;
     background-color: #648F6E;
     text-align: center;
-    padding-left: 350px;
+    padding-left: 90px;
     padding-bottom: 10px;
     margin-top: 30px;
+    padding-right: 150px;
 }
 
 .logo{
@@ -99,7 +100,7 @@ nav.inline-block{
 }
 @keyframes animateright{
     from{right:-300px;opacity:0} to{right:0;opacity:1}}
-    
+
 .modalContent{
     background-color: #FFFEF9;
     margin: 15% auto;
@@ -111,12 +112,11 @@ nav.inline-block{
     height: 250px;
     text-align: center;
     color: #122620;
-    transition: ease-in 5s;
 }
 
 .resume, .workSamples, .caseStudy{
     height: 35px;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
     background-color: #648F6E;
     color: #FFFEF9;
@@ -328,5 +328,13 @@ button{
 
    footer{
     padding-left: 0;
+   }
+
+   .resume, .workSamples, .caseStudy{
+    width: 150px;
+   }
+
+   .modalContent{
+    width: 200px;
    }
 }
