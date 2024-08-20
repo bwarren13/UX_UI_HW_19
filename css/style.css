@@ -319,7 +319,6 @@ button{
     'heroHeader'
     'heroP'
     'heroButton';
-    margin: 0 auto;
    }
 
    .heroImg{
@@ -350,8 +349,6 @@ button{
 
    ul.topnav{
     width: auto;
-   }
-   .inline-block{
-    width: auto;
+    text-align: center;
    }
 }
