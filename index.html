@@ -15,13 +15,20 @@
             </div>
             <nav class="inline-block">
                 <ul class="topnav">
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li onclick="scrollWin(0, 150)">About</li>
+                    <li onclick="scrollWin(0, 750)">Skills</li>
+                    <li onclick="scrollWin(0, 1300)">Work</li>
+                    <li id="contact">Contact</li>
                 </ul>
             </nav>
         </header>
+        <div id="myModal" class="modal1">
+            <div class="modalContent animate-right">
+                <span class="close">&times;</span>
+                <h4>Contact Me:</h4>
+                <h5>Email: Brookewarren13@gmail.com</h5>
+            </div>
+        </div>
         <section class="heroImg">
             <div class="heroGrid">
                 <img src="img/headshot.jpg" alt="Brooke Warren">
@@ -116,4 +123,9 @@
         </footer>
     </body>
     <script src="js/index.js"></script>
+    <script>
+        function scrollWin(x, y) {
+          window.scrollBy(x, y);
+        }
+        </script>
 </html>
