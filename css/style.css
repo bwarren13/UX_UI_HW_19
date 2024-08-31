@@ -18,7 +18,10 @@ body{
 p{
     font-family: poppins;
 }
-
+a{
+    font-family: poppins;
+    color: #FFFEF9;
+}
 nav.inline-block{
     display: inline-block;
     vertical-align: top;
